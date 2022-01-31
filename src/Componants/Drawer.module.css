@@ -1,0 +1,38 @@
+.drawer {
+    background-color: darkslategray;
+    margin-bottom: -4px;
+    grid-row:1;
+    grid-column:1;
+}
+
+.all {
+    display:grid;
+
+}
+
+.bat {
+    grid-row:1;
+    grid-column:1;
+    height: 10rem;
+    margin-left: 12rem;
+    margin-top: 1rem;
+}
+
+.paper{
+    grid-row:1;
+    grid-column:1;
+    height: 4rem;
+    margin-left: 18rem;
+    margin-top: 6.8rem;
+}
+
+@media (max-width:500px){
+    .drawer {
+        width: 300px;
+    }
+    .paper {
+        margin-left: 10rem;
+        margin-top: 4.6rem;
+        height: 2rem;
+    }
+}

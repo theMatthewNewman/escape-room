@@ -1,0 +1,31 @@
+.backplate {
+    background-color: darkslategray;
+    width: 30rem;
+    margin-bottom: -6px;
+    display: grid;
+}
+.wires {
+    grid-row: 1;
+    grid-column:1;
+}
+.pic {
+    grid-row:1;
+    grid-column:1;
+
+}
+.screw1 {
+    grid-row:1;
+    grid-column:1;
+    height: 2.5rem;
+    margin-left: 17.2rem;
+    margin-top: 1.5rem;
+
+}
+.screw2 {
+    grid-row:1;
+    grid-column:1;
+    height: 2.5rem;
+    margin-left: 17.2rem;
+    margin-top: 13rem;
+
+}

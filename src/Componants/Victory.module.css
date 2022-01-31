@@ -1,0 +1,12 @@
+.back{
+    background-color: darkslategray;
+    position:fixed;
+    top:0;
+    left:0;
+    margin: auto;
+    display:flex;
+    justify-content: center;
+    padding-top: 5rem;
+    height:100%;
+    width:100%;
+}

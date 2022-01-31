@@ -1,0 +1,66 @@
+.all {
+    background-color: darkslategray;
+    width: 30rem;
+    display: grid;
+}
+
+.image {
+    grid-row: 1;
+    grid-column: 1;
+}
+
+.key {
+    margin: 2rem;
+}
+.top {
+    grid-row:1;
+    grid-column: 1;
+}
+
+.cover {
+    display: grid;
+}
+
+.cover img {
+    grid-row: 1;
+    grid-column: 1;
+}
+.btn1 {
+    margin-top: 7rem;
+    grid-row: 1;
+    grid-column: 1;
+    margin-left: 3rem;
+}
+.btn1 button {
+    background-color: lightgreen;
+}
+.btn2 {
+    margin-top: 7rem;
+    grid-row: 1;
+    grid-column: 1;
+    margin-left: 9rem;
+}
+.btn2 button {
+    background-color: lightcoral;
+}
+button {
+    font-size: 1.5rem;
+}
+
+.cover h1 {
+    color: lightgreen;
+    text-shadow:0 0 20px lightgreen;
+    font-size: 5rem;
+    grid-row: 1;
+    grid-column: 1;
+    margin-left: 3.5rem;
+    padding: 0;
+    margin-top: 1.5rem;
+}
+
+.Switch{
+
+    height: 4rem;
+    margin-top: 2rem;
+    margin-left: 2rem;
+}

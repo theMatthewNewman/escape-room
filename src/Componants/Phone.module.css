@@ -1,0 +1,46 @@
+.phone {
+    height: 2rem;
+}
+
+.display {
+    grid-row: 1;
+    grid-column: 1;
+
+}
+
+.buttn {
+    border-radius: 8px;
+    grid-row: 1;
+    grid-column: 1;
+    width: 3rem;
+    height: 3rem;
+    margin-top: 7rem;
+    margin-left: 6.5rem;
+}
+
+.all {
+    display: grid;
+    background-color: darkslategray;
+    width: 30rem;
+}
+
+.cent {
+    grid-row: 1;
+    grid-column: 2;
+}
+
+.numbers {
+    grid-row: 1;
+    grid-column: 1;
+    color: lightgreen;
+    font-size: 1.5rem;
+    margin-left: 3.8rem;
+    margin-top: 3.2rem;
+    text-shadow: 0 0 20px lightgreen;
+}
+
+@media (max-width:500px){
+    .cent {
+        margin-left: -100px;
+    }
+}

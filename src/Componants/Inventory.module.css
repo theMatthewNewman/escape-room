@@ -1,0 +1,23 @@
+.but {
+    position: absolute;
+    top:0;
+    right:0;
+    background-color: darkgray;
+    border: 2px solid black;
+}
+
+.inv {
+    position: absolute;
+    top:0;
+    left: 0;
+    background-color: darkgray;
+    width: 100%;
+    border-bottom: 4px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 10rem;
+}
+
+.imag {
+    height: 10rem;
+}

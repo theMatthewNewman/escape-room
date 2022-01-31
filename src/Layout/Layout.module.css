@@ -1,0 +1,25 @@
+.lock {
+margin:auto;
+}
+
+.drawer {
+margin: auto;
+}
+
+.phone {
+margin: auto;
+}
+
+.number {
+margin: auto;
+}
+
+.display {
+margin: auto;
+}
+
+.all {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: darkslategray;
+}
